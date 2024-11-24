@@ -167,4 +167,10 @@ public class Controller : MonoBehaviour
        
 
     }
+    public void UpdateRotationVariables()
+    {
+        // Update horizontal and vertical angles to match the current transform
+        m_HorizontalAngle = transform.eulerAngles.y;
+        m_VerticalAngle = CameraPosition.localEulerAngles.x;
+    }
 }
