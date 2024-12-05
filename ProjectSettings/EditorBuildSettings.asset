@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Hospital_Level.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: 339f662487551334786fdb66ecdd13d8
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
     guid: ea2834d2f0f52dc4d87c2bdda2cc63be
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: bcf25aa38750fa84283a896fe2e90d1a
   m_configObjects: {}
